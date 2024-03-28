@@ -2,6 +2,7 @@ import os
 import importlib.util
 import sys
 
+
 def load_config():
     config = {'ENV': os.environ.get('ENV', 'DEVELOPMENT')}
     config_base_path = './App'
